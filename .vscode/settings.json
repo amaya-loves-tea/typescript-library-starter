@@ -1,0 +1,10 @@
+{
+  "cSpell.words": [
+    "commitlint",
+    "huskyrc",
+    "toolchain"
+  ],
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.detectIndentation": false
+}

@@ -1,0 +1,20 @@
+{
+  "name": "typescript-library-starter",
+  "version": "0.0.0",
+  "description": "Typescript library starter boilerplate",
+  "main": "dist/index.js",
+  "repository": "https://github.com/amaya-loves-tea/typescript-library-starter.git",
+  "author": "amaya-loves-tea",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "2.1.0",
+    "husky": "^3.0.0"
+  }
+}
