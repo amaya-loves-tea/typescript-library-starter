@@ -3,9 +3,28 @@
     "Interop",
     "commitlint",
     "huskyrc",
+    "prettierrc",
     "toolchain"
   ],
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
-  "editor.detectIndentation": false
+  "editor.detectIndentation": false,
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "typescript", "autoFix": true },
+    { "language": "typescriptreact", "autoFix": true }
+  ],
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.provideLintTask": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
