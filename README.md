@@ -1,5 +1,7 @@
 # Typescript Library Starter
 
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 This project provides the boilerplate for starting a typescript library to be hosted on [npm](https://www.npmjs.com/).
 
 ## Recommended Editor
