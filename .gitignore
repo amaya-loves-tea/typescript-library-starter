@@ -1,2 +1,8 @@
 # Dependencies
-node_modules
+/node_modules/
+
+# Build files
+/dist/
+
+# Log files
+yarn-error.log
