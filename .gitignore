@@ -6,6 +6,7 @@
 
 # Build Artifacts
 /coverage/
+/docs/
 
 # Log files
 yarn-error.log

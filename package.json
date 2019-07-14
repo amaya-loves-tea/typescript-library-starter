@@ -19,7 +19,9 @@
     "test": "jest --config jestconfig.json --coverage",
     "test:watch": "jest --config jestconfig.json --watch",
     "cov": "run-s test && run-s cov:open",
-    "cov:open": "open-cli coverage/lcov-report/index.html"
+    "cov:open": "open-cli coverage/lcov-report/index.html",
+    "doc": "typedoc src && run-s doc:open",
+    "doc:open": "open-cli docs/index.html"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
@@ -40,6 +42,7 @@
     "rimraf": "^2.6.3",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.3.0",
+    "typedoc": "^0.14.2",
     "typescript": "^3.5.2"
   }
 }

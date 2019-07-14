@@ -30,6 +30,7 @@ Note that these examples use yarn but you can use the equivalent `npm run <comma
 - `yarn test:watch` - watches file changes and reruns tests for those changed files.
 - `yarn cov` - generate a code coverage report.
 - `yarn cov:open` - open generated code coverage reports.
+- `yarn doc` - generates documentation from code using [typedoc](https://typedoc.org/).
 
 ## Conventional Commits
 

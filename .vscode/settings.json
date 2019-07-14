@@ -6,7 +6,8 @@
     "huskyrc",
     "jestconfig",
     "prettierrc",
-    "toolchain"
+    "toolchain",
+    "typedoc"
   ],
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
