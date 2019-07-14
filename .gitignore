@@ -4,5 +4,8 @@
 # Build files
 /dist/
 
+# Build Artifacts
+/coverage/
+
 # Log files
 yarn-error.log

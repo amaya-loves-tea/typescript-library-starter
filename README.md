@@ -26,6 +26,10 @@ Note that these examples use yarn but you can use the equivalent `npm run <comma
 - `yarn build` - runs all build commands to create builds for different node environments.
 - `yarn build:main` - creates a build using [commonjs (cjs)](https://flaviocopes.com/commonjs/) modules.
 - `yarn build:module` - creates a build using [ES6 modules (esm)](https://exploringjs.com/es6/ch_core-features.html#sec_from-cjs-to-esm).
+- `yarn test` - runs all [jest](https://jestjs.io/en/) tests based on the `jestconfig.json` file and generates a code coverage report.
+- `yarn test:watch` - watches file changes and reruns tests for those changed files.
+- `yarn cov` - generate a code coverage report.
+- `yarn cov:open` - open generated code coverage reports.
 
 ## Conventional Commits
 
@@ -38,3 +42,11 @@ To easily create correctly formatted commits you can use the `yarn commit` scrip
 If you would like to run custom tasks during important actions on this repository you can use [git hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks).
 
 To make this as simple as possible we use [husky](https://github.com/typicode/husky) which is also used in the [conventional commits toolchain](#Conventional-Commits).
+
+## Debugging
+
+The following pre-configured [launch configurations](https://code.visualstudio.com/docs/editor/debugging) will assist with debugging your library.
+
+- `Current TS File` - debug current typescript file.
+- `Current Jest Test` - debug current jest test.
+- `All Jest Tests` - debug all jest tests.

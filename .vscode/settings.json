@@ -4,6 +4,7 @@
     "Interop",
     "commitlint",
     "huskyrc",
+    "jestconfig",
     "prettierrc",
     "toolchain"
   ],
@@ -19,10 +20,10 @@
     { "language": "typescriptreact", "autoFix": true }
   ],
   "[javascript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "[typescript]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": true
   },
   "eslint.provideLintTask": true,
   "[json]": {
