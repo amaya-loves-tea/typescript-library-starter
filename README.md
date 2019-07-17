@@ -30,7 +30,10 @@ Note that these examples use yarn but you can use the equivalent `npm run <comma
 - `yarn test:watch` - watches file changes and reruns tests for those changed files.
 - `yarn cov` - generate a code coverage report.
 - `yarn cov:open` - open generated code coverage reports.
+- `yarn cov:publish --token="YOUR_TOKEN_HERE"` - publish generated code coverage reports to [codecov](https://codecov.io/). You will need to replace `YOUR_TOKEN_HERE` with the token codecov gives you when running this command manually.
 - `yarn doc` - generates documentation from code using [typedoc](https://typedoc.org/).
+- `yarn doc:open`: opens generated documentation.
+- `yarn doc:publish`: - publishes generated documentation to [github pages](https://pages.github.com/).
 
 ## Conventional Commits
 
