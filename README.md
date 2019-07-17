@@ -18,22 +18,22 @@ Make sure to install all the [recommended extensions](https://code.visualstudio.
 
 Note that these examples use yarn but you can use the equivalent `npm run <command>` instead.
 
-- `yarn style` - runs all the style commands which ensure a consistent code style is followed.
-- `yarn style:lint` - lints your code using [eslint](https://github.com/typescript-eslint/typescript-eslint).
-- `yarn style:format` - formats your code using [prettier](https://prettier.io/).
-- `yarn commit` - starts a new commit using the [commitizen](https://github.com/commitizen/cz-cli) cli.
-- `yarn clean` - cleans up all build artifacts such as the distribution folder.
-- `yarn build` - runs all build commands to create builds for different node environments.
-- `yarn build:main` - creates a build using [commonjs (cjs)](https://flaviocopes.com/commonjs/) modules.
-- `yarn build:module` - creates a build using [ES6 modules (esm)](https://exploringjs.com/es6/ch_core-features.html#sec_from-cjs-to-esm).
-- `yarn test` - runs all [jest](https://jestjs.io/en/) tests based on the `jestconfig.json` file and generates a code coverage report.
-- `yarn test:watch` - watches file changes and reruns tests for those changed files.
-- `yarn cov` - generate a code coverage report.
-- `yarn cov:open` - open generated code coverage reports.
-- `yarn cov:publish --token="YOUR_TOKEN_HERE"` - publish generated code coverage reports to [codecov](https://codecov.io/). You will need to replace `YOUR_TOKEN_HERE` with the token codecov gives you when running this command manually.
-- `yarn doc` - generates documentation from code using [typedoc](https://typedoc.org/).
-- `yarn doc:open`: opens generated documentation.
-- `yarn doc:publish`: - publishes generated documentation to [github pages](https://pages.github.com/).
+- `yarn style` - Runs all the style commands which ensure a consistent code style is followed.
+- `yarn style:lint` - Lints your code using [eslint](https://github.com/typescript-eslint/typescript-eslint).
+- `yarn style:format` - Formats your code using [prettier](https://prettier.io/).
+- `yarn commit` - Starts a new commit using the [commitizen](https://github.com/commitizen/cz-cli) cli.
+- `yarn clean` - Cleans up all build artifacts such as the distribution folder.
+- `yarn build` - Runs all build commands to create builds for different node environments.
+- `yarn build:main` - Creates a build using [CommonJS (cjs)](https://flaviocopes.com/commonjs/) modules.
+- `yarn build:module` - Creates a build using [ES6 modules (esm)](https://exploringjs.com/es6/ch_core-features.html#sec_from-cjs-to-esm).
+- `yarn test` - Runs all [jest](https://jestjs.io/en/) tests based on the `jestconfig.json` file and generates a code coverage report.
+- `yarn test:watch` - Watches file changes and reruns tests for those changed files.
+- `yarn cov` - Generate a code coverage report.
+- `yarn cov:open` - Open generated code coverage reports.
+- `yarn cov:publish --token="YOUR_TOKEN_HERE"` - Publish generated code coverage reports to [codecov](https://codecov.io/). You will need to replace `YOUR_TOKEN_HERE` with the token codecov gives you when running this command manually.
+- `yarn doc` - Generates documentation from code using [typedoc](https://typedoc.org/).
+- `yarn doc:open` - Opens generated documentation.
+- `yarn doc:publish` - Publishes generated documentation to [github pages](https://pages.github.com/).
 
 ## Conventional Commits
 
