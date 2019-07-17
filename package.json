@@ -16,7 +16,7 @@
     "build": "run-s clean && run-p build:*",
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
-    "test": "jest --config jestconfig.json --coverage",
+    "test": "jest --config jestconfig.json",
     "test:watch": "jest --config jestconfig.json --watch",
     "cov": "run-s test && run-s cov:open",
     "cov:open": "open-cli coverage/lcov-report/index.html",
