@@ -20,8 +20,10 @@
     "test:watch": "jest --config jestconfig.json --watch",
     "cov": "run-s test && run-s cov:open",
     "cov:open": "open-cli coverage/lcov-report/index.html",
+    "cov:publish": "codecov",
     "doc": "typedoc src && run-s doc:open",
-    "doc:open": "open-cli docs/index.html"
+    "doc:open": "open-cli docs/index.html",
+    "doc:publish": "gh-pages -d docs"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
@@ -30,10 +32,12 @@
     "@types/node": "^12.0.12",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
+    "codecov": "^3.5.0",
     "commitizen": "^3.1.1",
     "cz-conventional-changelog": "2.1.0",
     "eslint": "^6.0.1",
     "eslint-config-prettier": "^6.0.0",
+    "gh-pages": "^2.0.1",
     "husky": "^3.0.0",
     "jest": "^24.8.0",
     "npm-run-all": "^4.1.5",

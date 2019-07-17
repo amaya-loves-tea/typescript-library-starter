@@ -2,9 +2,11 @@
   "cSpell.words": [
     "ESNEXT",
     "Interop",
+    "codecov",
     "commitlint",
     "huskyrc",
     "jestconfig",
+    "lcov",
     "prettierrc",
     "toolchain",
     "typedoc"
