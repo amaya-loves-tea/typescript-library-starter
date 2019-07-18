@@ -80,6 +80,8 @@ Documenting code can be a tedious task but [typedoc](https://typedoc.org/) simpl
 
 Successful [CI builds](#Continuous-Integration) will automatically publish your documentation to [github pages](https://pages.github.com/).
 
+The `gh-pages` branch in your repository is vital to achieving this so you should not delete it.
+
 ## Code coverage
 
 Code coverage reports can be used to indicate the reliability of your code base as they indicate your test coverage.
