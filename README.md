@@ -1,5 +1,6 @@
 # Typescript Library Starter
 
+[![Build Status](https://travis-ci.org/amaya-loves-tea/typescript-library-starter.svg?branch=master)](https://travis-ci.org/amaya-loves-tea/typescript-library-starter)
 [![codecov: percent](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter)
 [![commitizen: friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -89,10 +90,10 @@ Your next build on travis will publish your current code coverage to `codecov`.
 
 ## Special Sauce
 
-Collect many badges to give your readme that that special something something.
+Collect many [badges](https://www.freecodecamp.org/news/how-to-use-badges-to-stop-feeling-like-a-noob-d4e6600d37d2/) to give your readme that that special something something.
 
-They can be used to provide reliability information about your code base and link back to important resources.
+Once you have [travis](#Continuous-Integration) and [codecov](#Code-coverage) set up make sure to their badges on your readme.
 
-Once you have [travis](#Continuous-Integration) and [codecov](#Code-coverage) set up make sure to include the build and coverage badges on your readme.
+You can also create [your own badges](https://shields.io/) to link to any important resources such as your [documentation](#Documentation).
 
-You can also opt to create [your own badges](https://shields.io/) to link to any important resources such as your [documentation](#Documentation).
+Refer to the badges in this readme for examples.
