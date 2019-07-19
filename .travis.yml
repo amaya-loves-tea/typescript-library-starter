@@ -25,4 +25,4 @@ after_success:
   # Publish code coverage report from running tests
   - yarn cov:publish
   # Publish using https://github.com/semantic-release/semantic-release
-  yarn release
+  - yarn release
