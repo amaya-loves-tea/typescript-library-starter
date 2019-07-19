@@ -9,6 +9,7 @@
     "jestconfig",
     "lcov",
     "prettierrc",
+    "releaserc",
     "toolchain",
     "typedoc"
   ],

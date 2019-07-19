@@ -23,7 +23,8 @@
     "cov:publish": "codecov",
     "doc": "typedoc src && run-s doc:open",
     "doc:open": "open-cli docs/index.html",
-    "doc:publish": "gh-pages -m \"chore: update docs\" -d docs"
+    "doc:publish": "gh-pages -m \"chore: update docs\" -d docs",
+    "release": "semantic-release"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
@@ -44,6 +45,7 @@
     "open-cli": "^5.0.0",
     "prettier": "^1.18.2",
     "rimraf": "^2.6.3",
+    "semantic-release": "^15.13.18",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.3.0",
     "typedoc": "^0.14.2",

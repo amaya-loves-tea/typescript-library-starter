@@ -5,6 +5,7 @@
 [![codecov: percent](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter)
 [![commitizen: friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 [![linter: eslint](https://img.shields.io/badge/linter-eslint-blue.svg)](https://github.com/typescript-eslint/typescript-eslint)
 [![docs: gh-pages](https://img.shields.io/badge/docs-gh--pages-blue.svg)](https://amaya-loves-tea.github.io/typescript-library-starter/)
 
@@ -104,9 +105,17 @@ To get started register your repository on travis and push to the master branch.
 
 The default CI pipeline starts off with validating your code by running tests.
 
-If Travis is pleased it will then publish your build to [npm](https://www.npmjs.com/) as well as supporting artifacts, documentation and code coverage, to their respective resources.
+If Travis is pleased it will then publish your artifacts and finally your build to [npm](https://www.npmjs.com/) using [semantic release](https://github.com/semantic-release/semantic-release).
 
-You can change the CI pipeline by configuring the `.travis.yml` file.
+You will need to add some environment variables to travis to enable semantic releases, see their docs for more on getting started.
+
+You can change the CI pipeline by configuring the `.travis.yml` file and the release options by configuring `.releaserc.json`.
+
+## Greenkeeper
+
+[Greenkeeper](https://greenkeeper.io/) is a service that will keep your dependencies up to date to avoid dependency related issues.
+
+Make sure to enable this service on your repository for peace of mind.
 
 ## Special Sauce
 
