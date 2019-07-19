@@ -23,9 +23,7 @@ Most of these commands will automatically run when you perform certain actions o
 
 ### Code style
 
-> Ensures code consistency in your code base.
->
-> They automatically get run before commits.
+Ensures code consistency in your code base. They automatically get run before commits.
 
 - `yarn style` - Runs all the style commands.
 - `yarn style:lint` - Lints your code using [eslint](https://github.com/typescript-eslint/typescript-eslint).
@@ -33,7 +31,7 @@ Most of these commands will automatically run when you perform certain actions o
 
 ### Build Tasks
 
-> Creates builds from your Typescript files.
+Creates builds from your Typescript files.
 
 - `yarn build` - Runs all build commands to create builds for different node environments.
 - `yarn build:main` - Creates a build using [CommonJS (cjs)](https://flaviocopes.com/commonjs/) modules.
@@ -41,18 +39,18 @@ Most of these commands will automatically run when you perform certain actions o
 
 ### Testing
 
-> Tasks to run [jest](https://jestjs.io/en/) tests to ensure your code is reliable.
->
-> Tests will automatically run before commits.
+Tasks to run [jest](https://jestjs.io/en/) tests to ensure your code is reliable.
+
+Tests will automatically run before commits.
 
 - `yarn test` - Runs all tests and generates a code coverage report.
 - `yarn test:watch` - Watches file changes and reruns tests for those changed files.
 
 ### Code Coverage
 
-> Tasks for generating and publishing code coverage reports.
->
-> If you sign up to [travis](#Continuous-Integration) and [codecov](https://codecov.io/) these reports automatically get published after successful builds.
+Tasks for generating and publishing code coverage reports.
+
+If you sign up to [travis](#Continuous-Integration) and [codecov](https://codecov.io/) these reports automatically get published after successful builds.
 
 - `yarn cov` - Generate a code coverage report.
 - `yarn cov:open` - Open generated code coverage report.
@@ -60,9 +58,9 @@ Most of these commands will automatically run when you perform certain actions o
 
 ### Documentation
 
-> Tasks for generating and publishing documentation based on your [typedoc](https://typedoc.org/) comments.
->
-> If you sign up to [travis](#Continuous-Integration), docs automatically get published to [github pages](https://pages.github.com/) after successful builds.
+Tasks for generating and publishing documentation based on your [typedoc](https://typedoc.org/) comments.
+
+If you sign up to [travis](#Continuous-Integration), docs automatically get published to [github pages](https://pages.github.com/) after successful builds.
 
 - `yarn doc` - Generates documentation from code.
 - `yarn doc:open` - Opens generated documentation in your default browser.
@@ -70,7 +68,7 @@ Most of these commands will automatically run when you perform certain actions o
 
 ### Helpers
 
-> These commands perform misc tasks.
+These commands perform misc tasks.
 
 - `yarn commit` - Create a new commit using the [commitizen](https://github.com/commitizen/cz-cli) cli.
 - `yarn clean` - Cleans up all build artifacts such as the distribution folder.
