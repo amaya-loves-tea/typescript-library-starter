@@ -1,5 +1,6 @@
 # Typescript Library Starter
 
+[![greenkeeper badge](https://badges.greenkeeper.io/amaya-loves-tea/typescript-library-starter.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/amaya-loves-tea/typescript-library-starter.svg?branch=master)](https://travis-ci.org/amaya-loves-tea/typescript-library-starter)
 [![codecov: percent](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter)
 [![commitizen: friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
