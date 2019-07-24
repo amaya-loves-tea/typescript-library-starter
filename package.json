@@ -23,7 +23,7 @@
     "cov:publish": "codecov",
     "doc": "typedoc src && run-s doc:open",
     "doc:open": "open-cli docs/index.html",
-    "doc:publish": "gh-pages -m \"chore: update docs\" -d docs",
+    "doc:publish": "gh-pages -t -m \"chore: update docs\" -d docs",
     "release": "semantic-release"
   },
   "devDependencies": {
