@@ -6,7 +6,9 @@
   "repository": "https://github.com/amaya-loves-tea/typescript-library-starter.git",
   "author": "amaya-loves-tea",
   "license": "MIT",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "style": "run-s style:*",
     "style:format": "prettier --write \"src/**/*.ts\"",
