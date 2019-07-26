@@ -1,5 +1,6 @@
 # Typescript Library Starter
 
+[![npm (scoped)](https://img.shields.io/npm/v/@teasenshi/typescript-library-starter?label=npm%20package)](https://www.npmjs.com/package/@teasenshi/typescript-library-starter)
 [![greenkeeper badge](https://badges.greenkeeper.io/amaya-loves-tea/typescript-library-starter.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/amaya-loves-tea/typescript-library-starter.svg?branch=master)](https://travis-ci.org/amaya-loves-tea/typescript-library-starter)
 [![codecov: percent](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter)
