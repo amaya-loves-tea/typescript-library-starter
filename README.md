@@ -125,8 +125,8 @@ Now it's time to fix all the readme badges and set up your build pipeline.
 1. Sign in and authorize travis with your github account.
 1. Activate your new repository [here](https://travis-ci.org/account/repositories).
 1. In https://travis-ci.org/USERNAME/YOUR_PACKAGE_NAME/settings:
-   1. Create a [github personal access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) with repo access and add it to your environment variables with master branch access only.
-   1. Create a [npm authentication token](https://docs.npmjs.com/creating-and-viewing-authentication-tokens) with publish access and add it to your environment variables with master branch access only.
+   1. Create a [github personal access token](https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line) with repo access and add it to your environment variables as `GH_TOKEN` with master branch access only.
+   1. Create a [npm authentication token](https://docs.npmjs.com/creating-and-viewing-authentication-tokens) with publish access and add it to your environment variables as `NPM_TOKEN` with master branch access only.
       > The above tokens are for [semantic release](https://github.com/semantic-release/semantic-release) so it can publish your package on [npm](https://www.npmjs.com/).
    1. Trigger your first build from the [dashboard](https://travis-ci.org/dashboard) which will make your build badge green but not yet deploy your package.
 
@@ -141,7 +141,7 @@ Now it's time to fix all the readme badges and set up your build pipeline.
 
 ### Reference Repository
 
-See the first commit on this [repository](https://github.com/amaya-loves-tea/fusion/commits/master) as a reference to the above steps.
+See the first commit on this [repository](https://github.com/amaya-loves-tea/fusion-reactor/commits/master) as a reference to the above steps.
 
 ## NPM Scripts
 
