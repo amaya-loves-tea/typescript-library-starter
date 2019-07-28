@@ -68,48 +68,188 @@
 					<h1>Typescript Library Starter</h1>
 				</a>
 				<p><a href="https://www.npmjs.com/package/@teasenshi/typescript-library-starter"><img src="https://img.shields.io/npm/v/@teasenshi/typescript-library-starter?label=npm%20package" alt="npm (scoped)"></a>
-					<a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/amaya-loves-tea/typescript-library-starter.svg" alt="greenkeeper badge"></a>
-					<a href="https://travis-ci.org/amaya-loves-tea/typescript-library-starter"><img src="https://travis-ci.org/amaya-loves-tea/typescript-library-starter.svg?branch=master" alt="Build Status"></a>
+					<a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/amaya-loves-tea/typescript-library-starter.svg" alt="greenkeeper: enabled"></a>
+					<a href="https://travis-ci.org/amaya-loves-tea/typescript-library-starter"><img src="https://travis-ci.org/amaya-loves-tea/typescript-library-starter.svg?branch=master" alt="build: status"></a>
 					<a href="https://codecov.io/gh/amaya-loves-tea/typescript-library-starter"><img src="https://codecov.io/gh/amaya-loves-tea/typescript-library-starter/branch/master/graph/badge.svg" alt="codecov: percent"></a>
 					<a href="http://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="commitizen: friendly"></a>
 					<a href="https://prettier.io/"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="code style: prettier"></a>
 					<a href="https://semantic-release.gitbook.io/semantic-release/"><img src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg" alt="semantic-release"></a>
 					<a href="https://github.com/typescript-eslint/typescript-eslint"><img src="https://img.shields.io/badge/linter-eslint-blue.svg" alt="linter: eslint"></a>
-				<a href="https://amaya-loves-tea.github.io/typescript-library-starter/"><img src="https://img.shields.io/badge/docs-gh--pages-blue.svg" alt="docs: gh-pages"></a></p>
+					<a href="https://amaya-loves-tea.github.io/typescript-library-starter/"><img src="https://img.shields.io/badge/docs-gh--pages-blue.svg" alt="docs: gh-pages"></a>
+					<a href="https://david-dm.org/amaya-loves-tea/typescript-library-starter"><img src="https://david-dm.org/amaya-loves-tea/typescript-library-starter/status.svg" alt="dependencies: status"></a>
+				<a href="https://david-dm.org/amaya-loves-tea/typescript-library-starter?type=dev"><img src="https://david-dm.org/amaya-loves-tea/typescript-library-starter/dev-status.svg" alt="dev-dependencies: status"></a></p>
 				<p>This project provides the boilerplate for starting a typescript library to be hosted on <a href="https://www.npmjs.com/">npm</a>.</p>
-				<a href="#recommended-editor" id="recommended-editor" style="color: inherit; text-decoration: none;">
-					<h2>Recommended Editor</h2>
+				<a href="#prerequisites" id="prerequisites" style="color: inherit; text-decoration: none;">
+					<h2>Prerequisites</h2>
+				</a>
+				<p>You will require the following to make use of this boilerplate.</p>
+				<ol>
+					<li><a href="https://github.com/">Github</a> account.</li>
+					<li><a href="https://nodejs.org/en/">Node.js</a> installed on your local machine and optionally yarn.</li>
+					<li><a href="https://git-scm.com/">Git</a> installed on your local machine.</li>
+					<li>An IDE with javascript/typescript support.</li>
+				</ol>
+				<a href="#recommended-ide" id="recommended-ide" style="color: inherit; text-decoration: none;">
+					<h2>Recommended IDE</h2>
 				</a>
 				<p>You should be using <a href="https://code.visualstudio.com/">Visual Studio Code</a> because its simple, fast, extensible and beloved by many developers.</p>
 				<p>Make sure to install all the <a href="https://code.visualstudio.com/docs/editor/extension-gallery#_recommended-extensions">recommended extensions</a> that come with the repository for the best possible coding experience.</p>
+				<a href="#quick-start" id="quick-start" style="color: inherit; text-decoration: none;">
+					<h2>Quick Start</h2>
+				</a>
+				<p>If you are not using a <a href="https://docs.npmjs.com/orgs/">npm org</a> it may be a good idea to check if your intended package name is available on the <a href="https://www.npmjs.com/">npm registry</a> before starting these steps.</p>
+				<a href="#github" id="github" style="color: inherit; text-decoration: none;">
+					<h3>GitHub</h3>
+				</a>
+				<ol>
+					<li>Create an empty repository for your package on <a href="https://github.com/">github</a> naming it according to your intended package name.</li>
+				</ol>
+				<a href="#local-setup" id="local-setup" style="color: inherit; text-decoration: none;">
+					<h3>Local setup</h3>
+				</a>
+				<ol>
+					<li><p>Clone the boilerplate using <code>git clone https://github.com/amaya-loves-tea/typescript-library-starter.git YOUR_PACKAGE_NAME</code>.</p>
+					</li>
+					<li><p>Delete the .git folder as you don&#39;t want my history.</p>
+					</li>
+					<li><p>Install dependencies with <code>yarn</code> or <code>npm install</code>.</p>
+					</li>
+					<li><p><code>package.json</code> - Change <code>name</code>, <code>description</code>, <code>repository</code> and <code>author</code> information.</p>
+					</li>
+					<li><p><code>.travis.yml</code> - Change the <code>-r</code> parameter of <code>yarn doc:publish</code> command to point to your repository but keep the <code>$GH_TOKEN</code> within the url for e.g <code>https://$GH_TOKEN@github.com/USERNAME/YOUR_PACKAGE_NAME.git</code></p>
+					</li>
+					<li><p><code>readme.md</code> - There are comments in this readme indicating what you need to change in this file.
+							They look something like this <code>[//]: # &#39;COMMENT HERE&#39;</code>.
+						Alternatively you can also use the following directions.</p>
+						<ol>
+							<li>Change first heading to <code>YOUR_PACKAGE_NAME</code>.</li>
+							<li>Change all badge urls that point to this repository to point to yours.
+								Change <code>@teasenshi/</code> to your npm org or if your are not using a npm org remove it from the urls.
+							Initially these badges will stop working but it will be fixed in following sections.</li>
+							<li>Change the description under the badges to your package description.</li>
+							<li>Update the <a href="#NPM-Scripts">npm scripts</a> section to remove notes about registering for certain services.</li>
+							<li>Delete <a href="#Quick-Start">quick start</a>, <a href="#Prerequisites">prerequisites</a> and all sections after <a href="#Debugging">debugging</a> as they are specific to the boilerplate.</li>
+							<li>Delete all comments in the readme.</li>
+						</ol>
+					</li>
+					<li><p>Git setup instructions</p>
+						<ol>
+							<li><code>git init</code> - create an empty repository.</li>
+							<li><code>git add .</code> - stage all files.</li>
+							<li><code>git commit -m &quot;chore(repository): initial commit&quot;</code> - commit staged files with a conventional commit message (more on that later).</li>
+							<li><code>git remote add origin https://github.com/USER_NAME/YOUR_REPOSITORY_NAME.git</code> - add a remote to the repository you created earlier.</li>
+							<li><code>git push --set-upstream origin master</code> - push your initial commit to the remote (github).</li>
+						</ol>
+					</li>
+				</ol>
+				<blockquote>
+					<p>If you forget to do something that you should have done before your initial commit then you can redo it by:</p>
+					<ol>
+						<li>Making your changes.</li>
+						<li>Deleting the .git folder.</li>
+						<li>Redoing the steps described above in <em>Git setup instructions</em>. However when pushing add the <code>--force</code> flag to override your initial commit for e.g <code>git push --set-upstream origin master --force</code>.</li>
+					</ol>
+				</blockquote>
+				<a href="#external-services" id="external-services" style="color: inherit; text-decoration: none;">
+					<h3>External Services</h3>
+				</a>
+				<p>Now it&#39;s time to fix all the readme badges and set up your build pipeline.</p>
+				<a href="#david" id="david" style="color: inherit; text-decoration: none;">
+					<h4>David</h4>
+				</a>
+				<p><a href="https://david-dm.org/">David</a> is used to display the status of your dependencies and is free for public repositories.</p>
+				<ol>
+					<li><p>Make sure you have a <code>dependencies</code> and <code>devDependencies</code> section in your <code>package.json</code>.</p>
+					</li>
+					<li><p>Login or sign up to david-dm using your github account.</p>
+					</li>
+					<li><p>Make sure the <code>dependencies</code> and <code>dev-dependencies</code> badges in this readme contain the link to your repository url.</p>
+					</li>
+				</ol>
+				<a href="#codecov" id="codecov" style="color: inherit; text-decoration: none;">
+					<h4>Codecov</h4>
+				</a>
+				<p><a href="https://codecov.io/">Codecov</a> is a service that integrates into various tools, hosts your code coverage reports and is free for public repositories.</p>
+				<ol>
+					<li><p>Login or sign up to codecov using your github account.</p>
+					</li>
+					<li><p>At <a href="https://codecov.io/gh/YOUR_USERNAME">https://codecov.io/gh/YOUR_USERNAME</a> choose add repository and add your new repository.</p>
+					</li>
+					<li><p>Ignore the upload token unless you want to publish coverage reports outside your <a href="#Travis-CI">CI</a> environment.</p>
+					</li>
+				</ol>
+				<a href="#travis-ci" id="travis-ci" style="color: inherit; text-decoration: none;">
+					<h4>Travis CI</h4>
+				</a>
+				<p><a href="https://travis-ci.org/">Travis CI</a> is a <a href="https://www.thoughtworks.com/continuous-integration">continuous integration</a> service where you can create a ci build pipeline and is free for public repositories.</p>
+				<blockquote>
+					<p>The build pipeline configured with this repository will:</p>
+					<ul>
+						<li>Test your code and on success perform the following actions<ul>
+								<li>Generate and publish your docs to <a href="https://pages.github.com/">github pages</a>.</li>
+								<li>Generate and publish a code coverage report to <a href="https://codecov.io/">codecov</a>.</li>
+								<li>Generate and publish a release on <a href="https://github.com/">github</a> and <a href="https://www.npmjs.com/">npm</a> using <a href="https://github.com/semantic-release/semantic-release">semantic release</a></li>
+							</ul>
+						</li>
+					</ul>
+				</blockquote>
+				<ol>
+					<li>Sign in and authorize travis with your github account.</li>
+					<li>Activate your new repository <a href="https://travis-ci.org/account/repositories">here</a>.</li>
+					<li>In <a href="https://travis-ci.org/USERNAME/YOUR_PACKAGE_NAME/settings">https://travis-ci.org/USERNAME/YOUR_PACKAGE_NAME/settings</a>:<ol>
+							<li>Create a <a href="https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line">github personal access token</a> with repo access and add it to your environment variables with master branch access only.</li>
+							<li>Create a <a href="https://docs.npmjs.com/creating-and-viewing-authentication-tokens">npm authentication token</a> with publish access and add it to your environment variables with master branch access only.<blockquote>
+									<p>The above tokens are for <a href="https://github.com/semantic-release/semantic-release">semantic release</a> so it can publish your package on <a href="https://www.npmjs.com/">npm</a>.</p>
+								</blockquote>
+							</li>
+							<li>Trigger your first build from the <a href="https://travis-ci.org/dashboard">dashboard</a> which will make your build badge green but not yet deploy your package.</li>
+						</ol>
+					</li>
+				</ol>
+				<blockquote>
+					<p>Pushes to the master branch will now automatically run your CI pipeline. You can configure the pipeline using the <code>.travis.yml</code> file.</p>
+				</blockquote>
+				<a href="#greenkeeper" id="greenkeeper" style="color: inherit; text-decoration: none;">
+					<h4>Greenkeeper</h4>
+				</a>
+				<p><a href="https://greenkeeper.io/">Greenkeeper</a> provides safety and consistency with real-time monitoring and automatic updates your dependencies.</p>
+				<ol>
+					<li>Register on greenkeeper and authorize it with your github account.</li>
+					<li>Follow the steps on their <a href="https://greenkeeper.io/docs.html">documentation</a> to enable greenkeeper on your repository.</li>
+				</ol>
+				<a href="#reference-repository" id="reference-repository" style="color: inherit; text-decoration: none;">
+					<h3>Reference Repository</h3>
+				</a>
+				<p>See the first commit on this <a href="https://github.com/amaya-loves-tea/fusion/commits/master">repository</a> as a reference to the above steps.</p>
 				<a href="#npm-scripts" id="npm-scripts" style="color: inherit; text-decoration: none;">
 					<h2>NPM Scripts</h2>
 				</a>
 				<p>Note that these examples use yarn but you can use the equivalent <code>npm run &lt;command&gt;</code> instead.</p>
-				<p>Most of these commands will automatically run when you perform certain actions on the repository.</p>
+				<p>Most of them will automatically run when you perform certain actions on your repository.</p>
 				<a href="#code-style" id="code-style" style="color: inherit; text-decoration: none;">
 					<h3>Code style</h3>
 				</a>
-				<p>Ensures code consistency in your code base. They automatically get run before commits.</p>
+				<p>Ensures code consistency in your code base.</p>
+				<p>These commands automatically get run before commits.</p>
 				<ul>
-					<li><code>yarn style</code> - Runs all the style commands.</li>
+					<li><code>yarn style</code> - Runs all style:* commands.</li>
 					<li><code>yarn style:lint</code> - Lints your code using <a href="https://github.com/typescript-eslint/typescript-eslint">eslint</a>.</li>
 					<li><code>yarn style:format</code> - Formats your code using <a href="https://prettier.io/">prettier</a>.</li>
 				</ul>
 				<a href="#build-tasks" id="build-tasks" style="color: inherit; text-decoration: none;">
 					<h3>Build Tasks</h3>
 				</a>
-				<p>Creates builds from your Typescript files.</p>
+				<p>Creates builds from your Typescript files for <a href="https://flaviocopes.com/commonjs/">CommonJS (cjs)</a> and <a href="https://exploringjs.com/es6/ch_core-features.html#sec_from-cjs-to-esm">ES6 modules (esm)</a>.</p>
 				<ul>
-					<li><code>yarn build</code> - Runs all build commands to create builds for different node environments.</li>
-					<li><code>yarn build:main</code> - Creates a build using <a href="https://flaviocopes.com/commonjs/">CommonJS (cjs)</a> modules.</li>
-					<li><code>yarn build:module</code> - Creates a build using <a href="https://exploringjs.com/es6/ch_core-features.html#sec_from-cjs-to-esm">ES6 modules (esm)</a>.</li>
+					<li><code>yarn build</code> - Runs all build commands which creates builds for different node environments.</li>
+					<li><code>yarn build:main</code> - Creates a build using cjs modules.</li>
+					<li><code>yarn build:module</code> - Creates a build using esm modules.</li>
 				</ul>
 				<a href="#testing" id="testing" style="color: inherit; text-decoration: none;">
 					<h3>Testing</h3>
 				</a>
-				<p>Tasks to run <a href="https://jestjs.io/en/">jest</a> tests to ensure your code is reliable.</p>
-				<p>Tests will automatically run before commits.</p>
+				<p>Ensures code is reliable by running your <a href="https://jestjs.io/en/">jest</a> unit tests.</p>
+				<p>Unit tests automatically get run before commits.</p>
 				<ul>
 					<li><code>yarn test</code> - Runs all tests and generates a code coverage report.</li>
 					<li><code>yarn test:watch</code> - Watches file changes and reruns tests for those changed files.</li>
@@ -117,17 +257,18 @@
 				<a href="#code-coverage" id="code-coverage" style="color: inherit; text-decoration: none;">
 					<h3>Code Coverage</h3>
 				</a>
-				<p>Tasks for generating and publishing code coverage reports.</p>
+				<p>Generates and publishes documentation based on your <a href="https://typedoc.org/">typedoc</a> comments.</p>
 				<p>If you sign up to <a href="#Continuous-Integration">travis</a> and <a href="https://codecov.io/">codecov</a> these reports automatically get published after successful builds.</p>
 				<ul>
 					<li><code>yarn cov</code> - Generate a code coverage report.</li>
 					<li><code>yarn cov:open</code> - Open generated code coverage report.</li>
-					<li><code>yarn cov:publish</code> - Publish generated code coverage reports to <a href="https://codecov.io/">codecov</a>.</li>
+					<li><code>yarn cov:publish</code> - Publish generated code coverage reports to <a href="https://codecov.io/">codecov</a>.
+					Running this command locally will require the upload token for e.g <code>yarn cov:publish --token=&quot;YOUR_TOKEN_HERE&quot;</code></li>
 				</ul>
 				<a href="#documentation" id="documentation" style="color: inherit; text-decoration: none;">
 					<h3>Documentation</h3>
 				</a>
-				<p>Tasks for generating and publishing documentation based on your <a href="https://typedoc.org/">typedoc</a> comments.</p>
+				<p>Generate and publishing documentation based on your <a href="https://typedoc.org/">typedoc</a> comments.</p>
 				<p>If you sign up to <a href="#Continuous-Integration">travis</a>, docs automatically get published to <a href="https://pages.github.com/">github pages</a> after successful builds.</p>
 				<ul>
 					<li><code>yarn doc</code> - Generates documentation from code.</li>
@@ -146,7 +287,7 @@
 					<h2>Conventional Commits</h2>
 				</a>
 				<p>Commit messages to this repository that don&#39;t follow the <a href="https://www.conventionalcommits.org/en/">conventional commit guidelines</a> will be rejected by a <code>commit-msg</code> <a href="#Git-Hooks">git hook</a>.</p>
-				<p>No one likes rejection so please use the <code>yarn commit</code> script which provides a CLI interface for creating formated commits.</p>
+				<p>No one likes rejection so use the <code>yarn commit</code> script which provides a CLI interface for creating formated commits.</p>
 				<a href="#git-hooks" id="git-hooks" style="color: inherit; text-decoration: none;">
 					<h2>Git Hooks</h2>
 				</a>
@@ -161,27 +302,11 @@
 					<li><code>Current Jest Test</code> - debug current jest test.</li>
 					<li><code>All Jest Tests</code> - debug all jest tests.</li>
 				</ul>
-				<a href="#continuous-integration" id="continuous-integration" style="color: inherit; text-decoration: none;">
-					<h2>Continuous Integration</h2>
-				</a>
-				<p>You can vet and automate a project build pipeline using a <a href="https://www.thoughtworks.com/continuous-integration">continuous integration</a> service.</p>
-				<p>As it so happens, developers love automation so we set up <a href="https://travis-ci.org/">Travis CI</a> for this repository.</p>
-				<p>To get started register your repository on travis and push to the master branch.</p>
-				<p>The default CI pipeline starts off with validating your code by running tests.</p>
-				<p>If Travis is pleased it will then publish your artifacts and finally your build to <a href="https://www.npmjs.com/">npm</a> using <a href="https://github.com/semantic-release/semantic-release">semantic release</a>.</p>
-				<p>You will need to add some environment variables to travis to enable semantic releases, see their docs for more on getting started.</p>
-				<p>You can change the CI pipeline by configuring the <code>.travis.yml</code> file and the release options by configuring <code>.releaserc.json</code>.</p>
-				<a href="#greenkeeper" id="greenkeeper" style="color: inherit; text-decoration: none;">
-					<h2>Greenkeeper</h2>
-				</a>
-				<p><a href="https://greenkeeper.io/">Greenkeeper</a> is a service that will keep your dependencies up to date to avoid dependency related issues.</p>
-				<p>Make sure to enable this service on your repository for peace of mind.</p>
 				<a href="#special-sauce" id="special-sauce" style="color: inherit; text-decoration: none;">
 					<h2>Special Sauce</h2>
 				</a>
 				<p>Collect many <a href="https://www.freecodecamp.org/news/how-to-use-badges-to-stop-feeling-like-a-noob-d4e6600d37d2/">badges</a> to give your readme that that special something something 😎.</p>
-				<p>Once you have <a href="#Continuous-Integration">travis</a> and <a href="#Code-coverage">codecov</a> set up make sure to add their badges on your readme.</p>
-				<p>You can also create <a href="https://shields.io/">your own badges</a> to link to any important resources such as your <a href="#Documentation">documentation</a>.</p>
+				<p>You can also create <a href="https://shields.io/">your own badges</a> to link to any important resources such as your documentation.</p>
 				<p>Refer to the badges in this readme for examples.</p>
 			</div>
 		</div>
