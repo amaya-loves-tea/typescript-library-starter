@@ -28,6 +28,7 @@
     "doc:publish": "gh-pages -t -m \"chore: update docs\" -d docs",
     "release": "semantic-release"
   },
+  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
