@@ -5,7 +5,6 @@
 [//]: # 'Change all occurrences of `typescript-library-starter` in the badges to YOUR_PACKAGE_NAME'
 [//]: # 'Remove all occurrences of `@teasenshi/` in the npm badge or change to the name of your npm org'
 
-[![npm (scoped)](https://img.shields.io/npm/v/@teasenshi/typescript-library-starter?label=npm%20package)](https://www.npmjs.com/package/@teasenshi/typescript-library-starter)
 [![greenkeeper: enabled](https://badges.greenkeeper.io/amaya-loves-tea/typescript-library-starter.svg)](https://greenkeeper.io/)
 [![build: status](https://travis-ci.org/amaya-loves-tea/typescript-library-starter.svg?branch=master)](https://travis-ci.org/amaya-loves-tea/typescript-library-starter)
 [![codecov: percent](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/amaya-loves-tea/typescript-library-starter)
@@ -16,6 +15,7 @@
 [![docs: gh-pages](https://img.shields.io/badge/docs-gh--pages-blue.svg)](https://amaya-loves-tea.github.io/typescript-library-starter/)
 [![dependencies: status](https://david-dm.org/amaya-loves-tea/typescript-library-starter/status.svg)](https://david-dm.org/amaya-loves-tea/typescript-library-starter)
 [![dev-dependencies: status](https://david-dm.org/amaya-loves-tea/typescript-library-starter/dev-status.svg)](https://david-dm.org/amaya-loves-tea/typescript-library-starter?type=dev)
+[![npm (scoped)](https://img.shields.io/npm/v/@teasenshi/typescript-library-starter?label=npm%20package)](https://www.npmjs.com/package/@teasenshi/typescript-library-starter)
 
 [//]: # 'Change this line to your package description'
 
