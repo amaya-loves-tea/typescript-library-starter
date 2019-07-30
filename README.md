@@ -2,7 +2,8 @@
 
 # Typescript Library Starter
 
-[//]: # 'Change all occurrences of `typescript-library-starter` in the badges to YOUR_PACKAGE_NAME'
+[//]: # 'Change all occurrences of `/typescript-library-starter` in the badges to YOUR_PACKAGE_NAME'
+[//]: # 'Change all occurrences of `amaya-loves-tea` in the badges to your USERNAME'
 [//]: # 'Remove all occurrences of `@teasenshi/` in the npm badge or change to the name of your npm org'
 
 [![greenkeeper: enabled](https://badges.greenkeeper.io/amaya-loves-tea/typescript-library-starter.svg)](https://greenkeeper.io/)
@@ -65,9 +66,11 @@ If you are not using a [npm org](https://docs.npmjs.com/orgs/) it may be a good 
    Alternatively you can also use the following directions.
 
    1. Change first heading to `YOUR_PACKAGE_NAME`.
-   1. Change all badge urls that point to this repository to point to yours.
-      Change `@teasenshi/` to your npm org or if your are not using a npm org remove it from the urls.
-      Initially these badges will stop working but it will be fixed in following sections.
+   1. Badge urls
+      - Change all repository urls to point to your repository.
+      - Change `@teasenshi/` to your npm org or if your are not using a npm org remove it from the urls.
+      - Make sure all occurrences of `amaya-loves-tea` are changed to your USERNAME.
+        > These badges will stop working but it will be fixed in following sections.
    1. Change the description under the badges to your package description.
    1. Update the [npm scripts](#NPM-Scripts) section to remove notes about registering for certain services.
    1. Delete [quick start](#Quick-Start), [prerequisites](#Prerequisites) and all sections after [debugging](#Debugging) as they are specific to the boilerplate.
@@ -180,6 +183,8 @@ Unit tests automatically get run before commits.
 
 Generates and publishes documentation based on your [typedoc](https://typedoc.org/) comments.
 
+[//]: # 'Remove the following line'
+
 If you sign up to [travis](#Continuous-Integration) and [codecov](https://codecov.io/) these reports automatically get published after successful builds.
 
 - `yarn cov` - Generate a code coverage report.
@@ -190,6 +195,8 @@ If you sign up to [travis](#Continuous-Integration) and [codecov](https://codeco
 ### Documentation
 
 Generate and publishing documentation based on your [typedoc](https://typedoc.org/) comments.
+
+[//]: # 'Remove the following line'
 
 If you sign up to [travis](#Continuous-Integration), docs automatically get published to [github pages](https://pages.github.com/) after successful builds.
 
