@@ -2,10 +2,15 @@
   "name": "@teasenshi/typescript-library-starter",
   "version": "0.0.0",
   "description": "Typescript library starter boilerplate",
-  "main": "dist/index.js",
+  "main": "dist/main/index.js",
+  "module": "dist/module/index.js",
+  "types": "dist/main/index.d.ts",
   "repository": "https://github.com/amaya-loves-tea/typescript-library-starter.git",
   "author": "amaya-loves-tea",
   "license": "MIT",
+  "files": [
+    "/dist/**/*"
+  ],
   "publishConfig": {
     "access": "public"
   },

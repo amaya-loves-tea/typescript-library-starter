@@ -14,8 +14,6 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://semantic-release.gitbook.io/semantic-release/)
 [![linter: eslint](https://img.shields.io/badge/linter-eslint-blue.svg)](https://github.com/typescript-eslint/typescript-eslint)
 [![docs: gh-pages](https://img.shields.io/badge/docs-gh--pages-blue.svg)](https://amaya-loves-tea.github.io/typescript-library-starter/)
-[![dependencies: status](https://david-dm.org/amaya-loves-tea/typescript-library-starter/status.svg)](https://david-dm.org/amaya-loves-tea/typescript-library-starter)
-[![dev-dependencies: status](https://david-dm.org/amaya-loves-tea/typescript-library-starter/dev-status.svg)](https://david-dm.org/amaya-loves-tea/typescript-library-starter?type=dev)
 [![npm (scoped)](https://img.shields.io/npm/v/@teasenshi/typescript-library-starter?label=npm%20package)](https://www.npmjs.com/package/@teasenshi/typescript-library-starter)
 
 [//]: # 'Change this line to your package description'
@@ -94,16 +92,6 @@ If you are not using a [npm org](https://docs.npmjs.com/orgs/) it may be a good 
 
 Now it's time to fix all the readme badges and set up your build pipeline.
 
-#### David
-
-[David](https://david-dm.org/) is used to display the status of your dependencies and is free for public repositories.
-
-1. Make sure you have a `dependencies` and `devDependencies` section in your `package.json`.
-
-1. Login or sign up to david-dm using your github account.
-
-1. Make sure the `dependencies` and `dev-dependencies` badges in this readme contain the link to your repository url.
-
 #### Codecov
 
 [Codecov](https://codecov.io/) is a service that integrates into various tools, hosts your code coverage reports and is free for public repositories.
@@ -144,7 +132,7 @@ Now it's time to fix all the readme badges and set up your build pipeline.
 
 ### Reference Repository
 
-See the first commit on this [repository](https://github.com/amaya-loves-tea/fusion-reactor/commits/master) as a reference to the above steps.
+See the first commit on this [repository](https://github.com/amaya-loves-tea/fission/commits/master) as a reference to the above steps.
 
 ## NPM Scripts
 
