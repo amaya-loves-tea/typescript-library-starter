@@ -27,7 +27,9 @@
         "--runInBand",
         "--config",
         "${workspaceRoot}/jestconfig.json",
-        "${fileBasename}"
+        "${fileBasename}",
+        "--coverage",
+        "false"
       ],
       "windows": {
         "args": [
@@ -36,7 +38,9 @@
           "--runInBand",
           "--config",
           "${workspaceRoot}/jestconfig.json",
-          "${fileBasename}"
+          "${fileBasename}",
+          "--coverage",
+          "false"
         ]
       },
       "console": "integratedTerminal",
@@ -53,7 +57,9 @@
         "${workspaceRoot}/node_modules/.bin/jest",
         "--runInBand",
         "--config",
-        "${workspaceRoot}/jestconfig.json"
+        "${workspaceRoot}/jestconfig.json",
+        "--coverage",
+        "false"
       ],
       "windows": {
         "args": [
@@ -61,7 +67,9 @@
           "${workspaceRoot}/node_modules/jest/bin/jest.js",
           "--runInBand",
           "--config",
-          "${workspaceRoot}/jestconfig.json"
+          "${workspaceRoot}/jestconfig.json",
+          "--coverage",
+          "false"
         ]
       },
       "console": "integratedTerminal",
