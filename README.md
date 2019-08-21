@@ -55,9 +55,10 @@ If you are not using a [npm org](https://docs.npmjs.com/orgs/) it may be a good 
 
 1. Install dependencies with `yarn` or `npm install`.
 
-1. `package.json` - Change `name`, `description`, `repository` and `author` information.
+1. `package.json`
 
-1. `.travis.yml` - Change the `-r` parameter of `yarn doc:publish` command to point to your repository but keep the `$GH_TOKEN` within the url for e.g `https://$GH_TOKEN@github.com/USERNAME/YOUR_PACKAGE_NAME.git`
+   1. Change `name`, `description`, `repository` and `author` information.
+   1. In the `doc:publish` script change the -r parameter to point to your `repository` keeping `$GH_TOKEN@` in the url for e.g `https://$GH_TOKEN@github.com/USERNAME/YOUR_PACKAGE_NAME.git`.
 
 1. `readme.md` - There are comments in this readme indicating what you need to change in this file.
    They look something like this `[//]: # 'COMMENT HERE'`.

@@ -23,7 +23,7 @@ after_success:
   # Generate docs
   - yarn doc
   # Publish docs to gh-pages
-  - yarn doc:publish -r https://$GH_TOKEN@github.com/amaya-loves-tea/typescript-library-starter.git
+  - yarn doc:publish
   # Publish code coverage report from running tests
   - yarn cov:publish
   # Publish using https://github.com/semantic-release/semantic-release

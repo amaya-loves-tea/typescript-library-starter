@@ -30,7 +30,7 @@
     "cov:publish": "codecov",
     "doc": "typedoc src && run-s doc:open",
     "doc:open": "open-cli docs/index.html",
-    "doc:publish": "gh-pages -t -m \"chore: update docs\" -d docs",
+    "doc:publish": "gh-pages -t -m \"chore: update docs\" -d docs -r https://$GH_TOKEN@github.com/amaya-loves-tea/typescript-library-starter.git",
     "release": "semantic-release"
   },
   "dependencies": {},
@@ -39,7 +39,7 @@
     "@commitlint/config-conventional": "^8.1.0",
     "@types/jest": "^24.0.17",
     "@types/node": "^12.7.1",
-    "@typescript-eslint/eslint-plugin": "^2.0.0",    
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "codecov": "^3.5.0",
     "commitizen": "^4.0.3",
