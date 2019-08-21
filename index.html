@@ -112,9 +112,11 @@
 					</li>
 					<li><p>Install dependencies with <code>yarn</code> or <code>npm install</code>.</p>
 					</li>
-					<li><p><code>package.json</code> - Change <code>name</code>, <code>description</code>, <code>repository</code> and <code>author</code> information.</p>
-					</li>
-					<li><p><code>.travis.yml</code> - Change the <code>-r</code> parameter of <code>yarn doc:publish</code> command to point to your repository but keep the <code>$GH_TOKEN</code> within the url for e.g <code>https://$GH_TOKEN@github.com/USERNAME/YOUR_PACKAGE_NAME.git</code></p>
+					<li><p><code>package.json</code></p>
+						<ol>
+							<li>Change <code>name</code>, <code>description</code>, <code>repository</code> and <code>author</code> information.</li>
+							<li>In the <code>doc:publish</code> script change the -r parameter to point to your <code>repository</code> keeping <code>$GH_TOKEN@</code> in the url for e.g <code>https://$GH_TOKEN@github.com/USERNAME/YOUR_PACKAGE_NAME.git</code>.</li>
+						</ol>
 					</li>
 					<li><p><code>readme.md</code> - There are comments in this readme indicating what you need to change in this file.
 							They look something like this <code>[//]: # &#39;COMMENT HERE&#39;</code>.
