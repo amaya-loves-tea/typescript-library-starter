@@ -8,11 +8,8 @@
     "prettier",
     "prettier/@typescript-eslint"
   ],
-  "rules": {
-    "@typescript-eslint/no-use-before-define": "off"
-  },
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./tsconfig.lint.json"
   },
   "overrides": [
     {

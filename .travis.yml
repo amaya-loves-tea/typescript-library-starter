@@ -5,6 +5,7 @@ node_js:
   - '10'
   - '11'
   - '12'
+  - '13'
 # Only run for changes to these branches.
 # There is no need to test branches since builds are created automatically from pull requests.
 branches:
